@@ -1,0 +1,527 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "template.elf"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"psn00bsdk_add_executable",
+			"target_link_options",
+			"set_target_properties",
+			"include",
+			"project",
+			"target_link_libraries",
+			"add_custom_command",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"C:/PSn00b/lib/libpsn00b/cmake/internal_setup.cmake",
+			"CMakeLists.txt",
+			"C:/PSn00b/lib/libpsn00b/cmake/libpsn00b.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 5
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 77,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 98,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 105,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 112,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 119,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 126,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 133,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 5
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "psn00bsdk::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxgpu::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxgte::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxspu::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxcd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxpress::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxsio::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxetc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxapi::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "smd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "lzp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wa,--strip-local-absolute"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffreestanding"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-builtin"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fsigned-char"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-strict-overflow"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-msoft-float"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-march=r3000"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mtune=r3000"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mabi=32"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mno-mt"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mno-llsc"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mdivide-breaks"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-G8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fno-pic"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mno-abicalls"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mgpopt"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mno-extern-sdata"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "PSN00BSDK=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "C:/PSn00b/lib/libpsn00b/cmake/../../../include/libpsn00b"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "template::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-TC:\\PSn00b\\lib\\libpsn00b\\cmake\\..\\ldscripts\\exe.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-nostdlib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-G8",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxgpu_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxgte_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxspu_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxcd_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxpress_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxsio_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxetc_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libpsxapi_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libsmd_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\liblzp_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "C:\\PSn00b\\lib\\libpsn00b\\debug\\libc_exe_gprel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgcc",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "psn00bsdk::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "-lgcc"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxgpu::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxgte::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxspu::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxcd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxpress::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxsio::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxetc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "psxapi::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "smd::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "lzp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"name" : "template",
+	"nameOnDisk" : "template.elf",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 20,
+			"id" : "template::@6890427a1f51a3e7e1df"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -3,6 +3,12 @@
 
 cmake_minimum_required(VERSION 3.21)
 
+# Must be before project()
+if(DEFINED ENV{PSN00BSDK_LIBS})
+    set(CMAKE_TOOLCHAIN_FILE "$ENV{PSN00BSDK_LIBS}/cmake/sdk.cmake"
+        CACHE STRING "toolchain")
+endif()
+
 project(
 	PSn00bSDK-template
 	LANGUAGES    C CXX ASM
