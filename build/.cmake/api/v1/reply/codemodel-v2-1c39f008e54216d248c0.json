@@ -1,0 +1,483 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c-Debug-344d3e5241b7ca859286.json",
+					"name" : "c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c_dll-Debug-5d30ed87f226f520ca2a.json",
+					"name" : "c_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c_exe_gprel-Debug-847ad4fa06e26b6137d1.json",
+					"name" : "c_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c_exe_nogprel-Debug-155b087feb9f7deadf7d.json",
+					"name" : "c_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lzp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lzp-Debug-0fcf6a376a64902c9c5b.json",
+					"name" : "lzp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lzp_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lzp_dll-Debug-3eead832bf0d70d26d0d.json",
+					"name" : "lzp_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lzp_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lzp_exe_gprel-Debug-91bd59ef6d9943cf1e22.json",
+					"name" : "lzp_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lzp_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lzp_exe_nogprel-Debug-0aa02981a6fd0f2a1f0e.json",
+					"name" : "lzp_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psn00bsdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psn00bsdk-Debug-7fbe9e37845c762ffc92.json",
+					"name" : "psn00bsdk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxapi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxapi-Debug-c64486ccbf4586f3b567.json",
+					"name" : "psxapi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxapi_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxapi_dll-Debug-4a4833b96ce23ad29cd8.json",
+					"name" : "psxapi_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxapi_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxapi_exe_gprel-Debug-48d8c893f887e3a6abe9.json",
+					"name" : "psxapi_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxapi_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxapi_exe_nogprel-Debug-8ff1a0775f51b2e36e53.json",
+					"name" : "psxapi_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxcd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxcd-Debug-8b82b6e56b2fc6ecfd7f.json",
+					"name" : "psxcd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxcd_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxcd_dll-Debug-c8eaa8f7f417d0dbcaa3.json",
+					"name" : "psxcd_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxcd_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxcd_exe_gprel-Debug-803978e4ea0bd45e7a1e.json",
+					"name" : "psxcd_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxcd_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxcd_exe_nogprel-Debug-d734e3671f6870297376.json",
+					"name" : "psxcd_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxetc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxetc-Debug-cca10b742873203f310a.json",
+					"name" : "psxetc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxetc_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxetc_dll-Debug-93c3e68314c04aa87175.json",
+					"name" : "psxetc_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxetc_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxetc_exe_gprel-Debug-19bfd41aca6178576192.json",
+					"name" : "psxetc_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxetc_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxetc_exe_nogprel-Debug-9075d0aaf09531191901.json",
+					"name" : "psxetc_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgpu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgpu-Debug-418b8f14869aa14077c0.json",
+					"name" : "psxgpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgpu_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgpu_dll-Debug-4c26c62369982ae0c3db.json",
+					"name" : "psxgpu_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgpu_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgpu_exe_gprel-Debug-e91067356bc76f92f1e4.json",
+					"name" : "psxgpu_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgpu_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgpu_exe_nogprel-Debug-fa5aecc4821161e6c3e3.json",
+					"name" : "psxgpu_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgte::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgte-Debug-737d1263851393dc6e0d.json",
+					"name" : "psxgte",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgte_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgte_dll-Debug-b736f69c1115e2246547.json",
+					"name" : "psxgte_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgte_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgte_exe_gprel-Debug-9c4e9aee5de715fb69d4.json",
+					"name" : "psxgte_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxgte_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxgte_exe_nogprel-Debug-66874c5279a35b811a82.json",
+					"name" : "psxgte_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxpress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxpress-Debug-03942da3c4a1c5fedfbf.json",
+					"name" : "psxpress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxpress_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxpress_dll-Debug-f0eecbf8843d53612dd8.json",
+					"name" : "psxpress_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxpress_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxpress_exe_gprel-Debug-26540434182fdee60722.json",
+					"name" : "psxpress_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxpress_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxpress_exe_nogprel-Debug-b45417dc224ac6a18797.json",
+					"name" : "psxpress_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxsio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxsio-Debug-03b4f85e8528989a5176.json",
+					"name" : "psxsio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxsio_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxsio_dll-Debug-ddbb81596129c454c069.json",
+					"name" : "psxsio_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxsio_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxsio_exe_gprel-Debug-2f48b9451614c2cb18b0.json",
+					"name" : "psxsio_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxsio_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxsio_exe_nogprel-Debug-28fbc84b1ef2ca6f8780.json",
+					"name" : "psxsio_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxspu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxspu-Debug-8b3ef7d4e97404105737.json",
+					"name" : "psxspu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxspu_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxspu_dll-Debug-061d146581c5d51560fa.json",
+					"name" : "psxspu_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxspu_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxspu_exe_gprel-Debug-1c78aca860e0058ea2d1.json",
+					"name" : "psxspu_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "psxspu_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-psxspu_exe_nogprel-Debug-5cf8aba9aa53e031d50a.json",
+					"name" : "psxspu_exe_nogprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smd-Debug-1c86afbd0036da4b39ad.json",
+					"name" : "smd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smd_dll::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smd_dll-Debug-756a38198629d3faad0f.json",
+					"name" : "smd_dll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smd_exe_gprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smd_exe_gprel-Debug-efe22276f66ddecadb80.json",
+					"name" : "smd_exe_gprel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smd_exe_nogprel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smd_exe_nogprel-Debug-12a540c4524ae528703c.json",
+					"name" : "smd_exe_nogprel",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PSn00bSDK-template",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "iso::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iso-Debug-96e501a5ca7c10b951ba.json",
+					"name" : "iso",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template-Debug-0ec3ea830775bd90c104.json",
+					"name" : "template",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/vsprojects/PSX_GAME/build",
+		"source" : "E:/vsprojects/PSX_GAME"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

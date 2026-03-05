@@ -1,0 +1,4 @@
+E:/vsprojects/PSX_GAME/build/CMakeFiles/template.dir
+E:/vsprojects/PSX_GAME/build/CMakeFiles/iso.dir
+E:/vsprojects/PSX_GAME/build/CMakeFiles/edit_cache.dir
+E:/vsprojects/PSX_GAME/build/CMakeFiles/rebuild_cache.dir

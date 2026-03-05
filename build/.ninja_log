@@ -1,0 +1,11 @@
+# ninja log v7
+8	57	7943759918660446	CMakeFiles/template.dir/main.c.obj	d04d7b576c768c9a
+58	134	7943759919881981	template.elf	86ac608f90bfddf3
+58	134	7943759919881981	template.exe	86ac608f90bfddf3
+58	134	7943759919881981	template.map	86ac608f90bfddf3
+58	134	7943759919881981	E:/vsprojects/PSX_GAME/build/template.exe	86ac608f90bfddf3
+58	134	7943759919881981	E:/vsprojects/PSX_GAME/build/template.map	86ac608f90bfddf3
+134	156	7943759920109770	template.bin	49fa0b0b2dbf111c
+134	156	7943759920109770	template.cue	49fa0b0b2dbf111c
+134	156	7943759920109770	E:/vsprojects/PSX_GAME/build/template.bin	49fa0b0b2dbf111c
+134	156	7943759920109770	E:/vsprojects/PSX_GAME/build/template.cue	49fa0b0b2dbf111c

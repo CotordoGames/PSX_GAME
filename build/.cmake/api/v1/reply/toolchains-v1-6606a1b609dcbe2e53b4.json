@@ -1,0 +1,93 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "C:/PSn00b/bin/mipsel-none-elf-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/PSn00b/lib/gcc/mipsel-none-elf/12.3.0/include",
+						"C:/PSn00b/lib/gcc/mipsel-none-elf/12.3.0/include-fixed",
+						"C:/PSn00b/mipsel-none-elf/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/PSn00b/bin/mipsel-none-elf-gcc.exe",
+				"version" : "12.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/PSn00b/mipsel-none-elf/include/c++/12.3.0",
+						"C:/PSn00b/mipsel-none-elf/include/c++/12.3.0/mipsel-none-elf/soft-float",
+						"C:/PSn00b/lib/gcc/mipsel-none-elf/12.3.0/include",
+						"C:/PSn00b/lib/gcc/mipsel-none-elf/12.3.0/include-fixed",
+						"C:/PSn00b/mipsel-none-elf/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/PSn00b/bin/mipsel-none-elf-g++.exe",
+				"version" : "12.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
