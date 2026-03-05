@@ -28,6 +28,10 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <psxgpu.h>
+#include <psxpad.h>
+
+
+static uint8_t padbuff[2][34];
 
 // Length of the ordering table, i.e. the range Z coordinates can have, 0-15 in
 // this case. Larger values will allow for more granularity with depth (useful
@@ -136,19 +140,37 @@ int main(int argc, const char **argv) {
 	ResetGraph(0);
 	FntLoad(960, 0);
 
+	InitPAD(padbuff[0], 34, padbuff[1], 34);
+	StartPAD();
+	ChangeClearPAD(0);
+
 	// Set up our rendering context.
 	RenderContext ctx;
 	setup_context(&ctx, SCREEN_XRES, SCREEN_YRES, 63, 0, 127);
 
 	int x  = 0, y  = 0;
-	int dx = 1, dy = 1;
+	int dx = 0, dy = 0;
 
 	for (;;) {
+		PADTYPE *pad = (PADTYPE*)padbuff[0];
+
+		if (pad->stat == 0) { // controller connected
+    		if (!(pad->btn & PAD_RIGHT))  // buttons are active LOW
+        		dx = 1;
+    		else if (!(pad->btn & PAD_LEFT))
+				dx = -1;
+			else if (!(pad->btn & PAD_UP))  // buttons are active LOW
+        		dy = 1;
+    		else if (!(pad->btn & PAD_DOWN))
+				dy = -1;
+			else{
+				dx = 0; dy = 0;
+			}
+
+		}
+        // d-pad left is held
 		// Update the position and velocity of the bouncing square.
-		if (x < 0 || x > (SCREEN_XRES - 64))
-			dx = -dx;
-		if (y < 0 || y > (SCREEN_YRES - 64))
-			dy = -dy;
+		
 
 		x += dx;
 		y += dy;
@@ -164,7 +186,7 @@ int main(int argc, const char **argv) {
 
 		// Draw some text in front of the square (Z = 0, primitives with higher
 		// Z indices are drawn first).
-		draw_text(&ctx, 8, 16, 0, "Hello world!");
+		draw_text(&ctx, 8, 16, 0, "Hello, world!");
 
 		flip_buffers(&ctx);
 	}

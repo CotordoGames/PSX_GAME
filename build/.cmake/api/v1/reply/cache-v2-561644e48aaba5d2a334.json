@@ -1514,7 +1514,7 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/PSn00b/lib/libpsn00b/cmake/sdk.cmake"
 		},
 		{
