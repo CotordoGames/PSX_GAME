@@ -182,7 +182,7 @@ int main(int argc, const char **argv) {
 		setTile(tile);
 		setXY0 (tile, x, y);
 		setWH  (tile, 64, 64);
-		setRGB0(tile, 255, 255, 0);
+		setRGB0(tile, 255, 255, 255);
 
 		// Draw some text in front of the square (Z = 0, primitives with higher
 		// Z indices are drawn first).
